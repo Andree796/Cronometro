@@ -1,0 +1,63 @@
+body, div, section, main, a{
+  padding: 0;
+  margin: 0;
+  border: none;
+  outline: none;
+}
+
+.principal{
+  background-color: #012E40;
+}
+
+.container-cronometro{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.minutos, .segundos, .milissegundos{
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 700;
+  font-size: 48px;
+  margin-bottom: 45px;
+  color: #03A696;
+  display: flex;
+  text-shadow: black 1px 1px 1px;
+}
+
+.pontos{
+  color: #03A696;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 700;
+}
+
+.cronometro-tela{
+  display: flex;
+}
+
+.cronometro{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  height: 100vh;
+  column-gap: 45px;
+}
+
+.cronometro a{
+  font-family: Arial, Helvetica, sans-serif;
+  text-decoration: none;
+  color: #03A696;
+  padding: 10px;
+  border: 10px solid #025159;
+  background-color: #025159;
+  border-radius: 15px;
+  box-shadow: 0 4px 4px 0 black;
+  text-transform: uppercase;
+  font-weight: 700;
+}
+
+.cronometro a:active{
+    background-color: #038C8C;
+    border: 10px solid #038C8C;
+}
